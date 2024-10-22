@@ -1,0 +1,18 @@
+package algoritmos;
+
+public class Ejercicio04ComparacionDeDosNumeros {
+
+	public static void main(String[] args) {
+		/* leer dos números y decir cual es mayor
+		 * menor o igual
+		 */
+		int num1=5, num2=7;
+		
+		if (num1 > num2)
+			System.out.println("num1 es mayor que num2");
+		else
+			System.out.println("num1 es menor que num2");
+
+	}
+
+}

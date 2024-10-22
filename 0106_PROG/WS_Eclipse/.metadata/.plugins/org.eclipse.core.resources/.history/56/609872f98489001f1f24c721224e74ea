@@ -1,0 +1,16 @@
+package algoritmos;
+
+public class Ejercicio03AlternativasIf {
+
+	public static void main(String[] args) {
+		int edad=18;
+		// Solo if una sola sentencia
+		if (edad >=18);
+			System.out.println("Mayor e edad");
+			
+			
+		System.out.println("FIN DE PROGRAMA");
+		
+	}
+
+}

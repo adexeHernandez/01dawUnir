@@ -1,0 +1,12 @@
+package ejecutables;
+
+public class Ejercicio04TiposMetodos {
+
+	public static void main(String[] args) {
+		// acceso a metodos estaticos
+		
+		System.out.println(Math.sqrt(16));
+
+	}
+
+}
