@@ -1,21 +1,22 @@
-# Ignorar todo excepto los archivos .java en las carpetas src
-
 # Ignorar todo por defecto
 *
 
 # No ignorar el archivo .gitignore
 !.gitignore
 
-# No ignorar el contenido de la carpeta src en cualquier parte del proyecto
-!**/src/
-!**/src/**/*.java
+# No ignorar las carpetas src en cualquier subdirectorio
+!*/src/
+
+# No ignorar los archivos .java dentro de las carpetas src
+!*/src/**/*.java
 
 # Ignorar los archivos y carpetas generadas por Eclipse
-.classpath
-.project
-.settings/
-bin/
+*.classpath
+*.project
+*/.settings/
+*/bin/
 
 # Ignorar otros archivos temporales o innecesarios
 *.log
 *.tmp
+
