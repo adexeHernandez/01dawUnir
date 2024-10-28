@@ -6,9 +6,9 @@
 # No ignorar el archivo .gitignore
 !.gitignore
 
-# No ignorar el contenido de la carpeta src
-!*/src/
-!*/src/**/*.java
+# No ignorar el contenido de la carpeta src en cualquier parte del proyecto
+!**/src/
+!**/src/**/*.java
 
 # Ignorar los archivos y carpetas generadas por Eclipse
 .classpath
