@@ -1,0 +1,12 @@
+# Ignorar los archivos y carpetas generadas por Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+
+# Ignorar otros archivos temporales o innecesarios
+*.log
+*.tmp
+
+
